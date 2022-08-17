@@ -1,0 +1,36 @@
+.card {
+    margin: 10px;
+    width: 270px;
+    height: 230px;
+    overflow: hidden;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px rgb(75 74 74 / 40%);
+}
+
+.card a {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+.name {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.phone {
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.email {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
