@@ -1,7 +1,6 @@
 import React from 'react'
 import s from './Content.module.css'
 import axios from 'axios'
-import phone from '../../assets/icons/phone-black.svg'
 import Card from './card/Card'
 
 const Content = ({ insert, openModal, }) => {
@@ -14,7 +13,6 @@ const Content = ({ insert, openModal, }) => {
                 const r = await axios.get(`http://127.0.0.1:3030/?term=${insert}`)
                 setUser(r.data)
             } catch (error) {
-                alert('')
                 console.log(`Ошибка: ${error}`);
             }
         })()
